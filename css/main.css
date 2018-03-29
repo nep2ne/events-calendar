@@ -1,15 +1,15 @@
 html {
   font-family: Merriweather, serif;
+  color: #333;
 }
 
 table {
   border: 1px solid #000;
 }
 
-
 .grey {
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
+  background-color: #ccc;
+  border: 1px solid #333;
   border-radius: 5px;
   color: #666;
 }
@@ -27,6 +27,7 @@ table {
   border-radius: 5px;
   color: #51603f;
 }
+
 .blue {
   background-color: #d2d6f0;
   border: 1px solid #1d38da;
@@ -35,9 +36,25 @@ table {
 }
 
 .first-row {
-  height: 6em;
+  height: 9em;
 }
 
 .second-row {
-  height: 2em;
+  height: 10em;
+}
+
+.third-row {
+  max-height: 6em;
+}
+
+.fourth-row {
+  height: 8em;
+}
+
+.fifth-row {
+  height: 8em;
+}
+
+.border {
+  border: 1px solid #f2f2f2;
 }
